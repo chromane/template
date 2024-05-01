@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "allowArbitraryExtensions": true,
+    "paths": {
+      "@root/*": ["../*"],
+      "@shared/*": ["../prj_shared/*"],
+      "@chromane/*": ["../node_modules/chromane/*"]
+    },
+    "target": "es2021",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitAny": false
+  },
+  "include": ["./**/*", "../prj_shared/**/*", "../node_modules/chromane/**/*"]
+}

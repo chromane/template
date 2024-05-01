@@ -1,0 +1,16 @@
+node_modules
+.secrets.json
+
+/extension/
+/dist/
+/temp/
+/package-lock.json
+
+/temp_extension_webpack
+/temp_extension_install
+/temp_extension_build
+/temp_frontend_webpack
+/temp_ext_install
+/temp_ext_build
+/temp_ext_webpack
+/temp_back
