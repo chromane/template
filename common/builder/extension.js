@@ -59,7 +59,7 @@ function get_webpack_config(mode) {
   webpack_data.resolve = {
     extensions: [".ts"],
     alias: {
-      "@chromane": path.resolve(dirnames.prj_root, "node_modules", "chromane"),
+      "@chromane": path.resolve(dirnames.prj_root, "common"),
       "@shared": dirnames.prj_shared,
       "@root": dirnames.prj_root,
     },

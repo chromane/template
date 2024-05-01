@@ -74,7 +74,7 @@ function backend_get_config(mode) {
     resolve: {
       extensions: [".ts"],
       alias: {
-        "@chromane": path.resolve(dirnames.prj_root, "node_modules", "chromane"),
+        "@chromane": path.resolve(dirnames.prj_root, "common"),
         "@shared": dirnames.prj_shared,
       },
     },

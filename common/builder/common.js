@@ -16,7 +16,7 @@ export default {
   init() {
     fs_extra.copySync(
       //
-      path.resolve(dirnames.prj_root, "node_modules", "chromane", "template"),
+      path.resolve(dirnames.prj_root, "common", "template"),
       path.resolve(dirnames.prj_root)
     );
     // This is needed because .gitignore is not included

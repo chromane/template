@@ -68,8 +68,8 @@ function get_config(mode, version_frontend) {
       //   // root: dirnames.prj_root,
       //   projects: [
       //     //
-      //     path.resolve(dirnames.prj_root, "node_modules", "chromane", "front"),
-      //     path.resolve(dirnames.prj_root, "node_modules", "chromane", "shared"),
+      //     path.resolve(dirnames.prj_root, "common", "front"),
+      //     path.resolve(dirnames.prj_root, "common", "shared"),
       //     //
       //     dirnames.prj_back,
       //     dirnames.prj_shared,
@@ -99,9 +99,9 @@ function get_config(mode, version_frontend) {
         { find: "@root", replacement: dirnames.prj_root },
         { find: "@common", replacement: dirnames.common },
         { find: "@shared", replacement: dirnames.prj_shared },
-        { find: "@chromane", replacement: path.resolve(dirnames.prj_root, "node_modules", "chromane") },
+        { find: "@chromane", replacement: path.resolve(dirnames.prj_root, "common") },
         // { find: "@chromane", replacement: "chromane" },
-        // "@chromane": path.resolve(dirnames.prj_root, "node_modules", "chromane"),
+        // "@chromane": path.resolve(dirnames.prj_root, "common"),
       ],
     },
     server: {
