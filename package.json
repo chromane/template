@@ -1,12 +1,13 @@
 {
   "name": "chromane_template",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "node ./common/builder/main.js dev",
     "build": "node ./common/builder/main.js build",
-    "deploy": "node ./common/builder/main.js deploy"
+    "deploy": "node ./common/builder/main.js deploy",
+    "watch": "node ./common/builder/watch.js"
   },
   "author": "",
   "license": "MIT",

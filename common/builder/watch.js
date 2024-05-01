@@ -13,6 +13,8 @@ let destinations = [
   path.resolve("../busmask/common"),
   path.resolve("../iann_app/common"),
   path.resolve("../bloom/common"),
+  path.resolve("../chromane_extension/common"),
+  path.resolve("../incubator/common"),
 ];
 
 console.log(source);
