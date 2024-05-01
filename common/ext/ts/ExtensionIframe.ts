@@ -87,7 +87,7 @@ export default class ExtensionIframe {
     iframe.setAttribute("allowtransparency", "true");
     iframe.setAttribute("allow", "camera; microphone; fullscreen; display-capture; clipboard-read; clipboard-write");
     if (this.config.mode === "prod") {
-      iframe.src = `${base_url}/f/${version_frontend}/iframe/index.html`;
+      iframe.src = `${this.root_bucket_url}/f/${version_frontend}/iframe/index.html`;
     } else {
       iframe.src = this.dev_url;
     }
